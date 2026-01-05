@@ -1,0 +1,25 @@
+
+@media (max-width: 470px){
+    .container{
+        border: none;
+    }
+
+    .quote-container{
+    width: 90%;
+    height: 180px;
+    border: 4px double #a2a2e7;
+    margin: 1rem auto;
+    padding: 10px 20px;
+    line-height: 1.2;
+    backdrop-filter: blur(5px);
+    }
+
+}
+
+@media (max-width: 370px){
+    .quote-container h1{
+        font-weight: 900;
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+    }
+}
